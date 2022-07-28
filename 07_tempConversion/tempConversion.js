@@ -3,7 +3,10 @@ const ftoc = function (f) {
   return c;
 };
 
-const ctof = function () {};
+const ctof = function () {
+  let f = c * (9 / 5) + 32;
+  return f;
+};
 
 // Do not edit below this line
 module.exports = {
