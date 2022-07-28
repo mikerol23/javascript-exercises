@@ -3,7 +3,7 @@ const ftoc = function (f) {
   return c;
 };
 
-const ctof = function () {
+const ctof = function (c) {
   let f = c * (9 / 5) + 32;
   return f;
 };
