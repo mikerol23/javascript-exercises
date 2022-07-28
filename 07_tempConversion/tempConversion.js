@@ -4,7 +4,7 @@ const ftoc = function (f) {
 };
 
 const ctof = function (c) {
-  let f = c * (9 / 5) + 32;
+  let f = Math.round((c * (9 / 5) + 32) * 10) / 10;
   return f;
 };
 
